@@ -15,3 +15,27 @@ I started learning programming with C++ and later switched to Java. I've been st
 
 At the moment I want to get front-end development skills and become a full-stack developer in the future.
 
+## Skills
+* HTML5 / CSS
+* Javascript (basic)
+* Java SE
+* Java EE
+* Git
+* Maven / Gradle
+* SQL
+* Hibernate
+* Spring
+  
+## Code example
+```Javascript
+Array.prototype.reduce = function(process, initial) {
+  for(let i = 0; i < this.length; i++) {
+    if(initial == null) {
+      i++;
+      initial = this[0];
+    }
+    initial = process(initial, this[i]); 
+  }
+  return initial;
+};
+```

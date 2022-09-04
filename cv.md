@@ -17,7 +17,7 @@ At the moment I want to get front-end development skills and become a full-stack
 
 ## Skills
 * HTML5 / CSS
-* Javascript (basic)
+* JavaScript (basic)
 * Java SE
 * Java EE
 * Git
@@ -39,3 +39,16 @@ Array.prototype.reduce = function(process, initial) {
   return initial;
 };
 ```
+
+## Education
+* **University:** Belarusian-Russian University - Faculty of Electrical Engineering
+* **Courses:**
+  * [JavaRush](https://javarush.ru/)
+  * [JavaScript](https://learn.javascript.ru/)
+  * [Introduction to Java by EPAM](https://training.by/Training/Details/2397?lang=en) - self-study
+  * [Java & Web by EPAM](https://training.by/Training/Details/2757?lang=en) - training
+
+## Languages
+* Belarusian
+* Russian
+* English - Pre-Intermediate (A2)

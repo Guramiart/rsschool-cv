@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/styles/default.min.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/11.6.0/highlight.min.js"></script>
+    <script>hljs.highlightAll();</script>
+    <title>RS-School CV</title>
+</head>
+<body>
+    <h1>Artem Pasko</h1>
+    <section class="contacts">
+        <h2>Contacts</h2>
+        <ul>
+            <li><span>Location:</span>Mogilev, Belarus</li>
+            <li><span>Phone:</span>+375 44 777-51-63</li>
+            <li><span>E-mail:</span>guramibox777@gmail.com</li>
+            <li><span>Telegram: </span><a href="https://t.me/guramiArt">@guramiArt</a></li>
+            <li><span>LinkedIn: </span><a href="https://www.linkedin.com/in/guramiart">guramiart</a></li>
+            <li><span>GitHub: </span><a href="https://github.com/Guramiart">@Guramiart</a></li>
+        </ul>
+    </section>
+    <section class="about">
+        <h2>About me</h2>
+        <p>I am interested in engineering and technology. Now I'm working as the head of the technical department in a telecommunications company in the Mogilev.</p>
+        <p>I started learning programming with C++ and later switched to Java. I've been studying it for over a year.</p>
+        <p>At the moment I want to get front-end development skills and become a full-stack developer in the future.</p>
+    </section>
+    <section class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML / CSS</li>
+            <li>JavaScript (basic)</li>
+            <li>Java SE</li>
+            <li>Java EE</li>
+            <li>Git</li>
+            <li>Maven / Gradle</li>
+            <li>SQL</li>
+            <li>Hibernate</li>
+            <li>Spring</li>
+        </ul>
+    </section>
+    <section class="code-example">
+        <h2>Code Example</h2>
+        <pre><code class="language-javascript">
+            Array.prototype.reduce = function(process, initial) {
+                for(let i = 0; i &lt; this.length; i++) {
+                  if(initial == null) {
+                    i++;
+                    initial = this[0];
+                  }
+                  initial = process(initial, this[i]); 
+                }
+                return initial;
+            };
+        </code></pre>
+    </section>
+    <section class="education">
+        <h2>Education</h2>
+        <ul>
+            <li><span>University:</span>Belarusian-Russian University - Faculty of Electrical Engineering</li>
+            <li><span>Courses:</span>
+                <ul>
+                    <li><a href="https://javarush.ru">JavaRush</a></li>
+                    <li><a href="https://learn.javascript.ru">JavaScript</a></li>
+                    <li><a href="https://training.by/Training/Details/2397?lang=en">Introduction to Java by EPAM</a> - self-study</li>
+                    <li><a href="https://training.by/Training/Details/2757?lang=en">Java &amp; Web by EPAM</a> - training</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <section class="languages">
+        <h2>Languages</h2>
+        <ul>
+            <li>Belarusian</li>
+            <li>Russian</li>
+            <li>English - Pre-Intermediate (A2)</li>
+        </ul>
+    </section>
+</body>
+</html>
